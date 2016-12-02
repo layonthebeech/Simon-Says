@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Simone Says</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="container">
+  <div id="simon">
+    <div id="answerButtons">
+      <button class="answerButton" id="Green"></button>
+      <button class="answerButton" id="Red"></button>
+      <button class="answerButton" id="Yellow"></button>
+      <button class="answerButton" id="Blue"></button>
+    </div>
+    <div id="centerButton">
+      <div id="menu">
+        <div id="title">SIMON</div>
+        <div id="buttons">
+          <div class="labels">
+            <div id="count"></div>
+            <div>Count</div>
+          </div>
+          <div class="labels">
+            <button disabled="true" class="buttons" id="strict"></button>
+            <div>Strict</div>
+          </div>
+          <div class="labels">
+            <button disabled="true" class="buttons" id="start"></button>
+            <div>Start</div>
+          </div>
+          <div id="powerContainer" class="labels">
+            <button id="power">ON</button>
+            <div>Power</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="crossSection"></div>
+    <div id="bod"> </div>
+  </div>
+  <audio id="GreenSound" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" preload="auto"></audio>
+  <audio id="RedSound" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" preload="auto"></audio>
+  <audio id="YellowSound" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" preload="auto"></audio>
+  <audio id="BlueSound" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" preload="auto"></audio>
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
