@@ -1,3 +1,1 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/layonthebeech/pen/YpZYrZ.
-
- 
+https://layonthebeech.github.io/Simon-Says/
